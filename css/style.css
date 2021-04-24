@@ -1,1 +1,1262 @@
 
+html{
+    scroll-behavior: smooth;
+}
+
+#mainpage{
+  background-image: url("../images/lawquad.jpeg") ;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#main {
+    background-image: url("../images/lawquad.jpeg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#main img {
+    width: 20%;
+    border: 10px solid #0b023d;
+    border-radius: 5px;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    
+}
+
+h1 { 
+    font-size: 90px;
+    line-height: 1;
+    padding: 10px 0;
+    text-align: center;
+    color:white;
+    font-family: "Caveat", sans-serif;
+    background-color: #0b023d;
+    border-color: #0b023d;
+    border-radius: 10px;
+    width: 75%;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    padding-bottom: 60px;
+    -webkit-text-stroke: 1.25px white;
+    font-family: "Lato", sans-serif;
+    width: 50%;
+}
+
+body {
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.about-text {
+    align-content: center;
+    background-color: #0b023d;
+    padding: 50px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+#container {
+    align-items: center;
+    padding: 40px 40px;
+    width: 75%;
+}
+
+
+#container p {
+    margin: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    color: #ffffff;
+}
+.skip-to-content-link-main {
+  transform: translateY(-100%);
+  background-color: black;
+  opacity: 75%;
+  color: #2305d1;
+  border: 2px solid black;
+  border-radius: 5px;
+  top: 50%;
+}
+.skip-to-content-link-work {
+    transform: translateY(-100%);
+    background-color: black;
+    opacity: 75%;
+    color: #2305d1;
+    border: 2px solid black;
+    border-radius: 5px;
+    top: 50%;
+  }
+
+
+/* The flip card container */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    border: 10px solid #0b023d;
+    border-radius: 5px;
+    perspective: 1000px;
+    top: 0;
+    right: 0;
+}
+
+.flip-card h1 {
+    font-size: 40px;
+    color: white;
+    font-family: "Caveat", sans-serif;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #0b023d;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back a {
+    color: white;
+}
+
+#Contact {
+    background-color: black;
+    opacity: 0.8;
+    background-image: none;
+}
+
+#Contact nav a:hover{
+    display: block;
+    background-color: #0b023d;
+    border: 7px solid #0b023d;
+    border-radius: 5px;
+}
+
+/*work*/
+#work {
+    background-color: #333333;
+}
+
+#workmain {
+    background-color: #333333;
+}
+
+#work img  {
+    width: 50%;
+}
+
+/*classes*/
+#Classes {
+    background-image: url("../images/marquee.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+#classesmain {
+    background-image: url("../images/marquee.jpeg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*form*/
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    opacity: 100%;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #008000;
+    border-color:black;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+.form {
+    width: 60%;
+    opacity: 85%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.form h1 {
+    text-align: center;
+    width: 100%;
+}
+  
+
+  /*flex*/
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+.column1 {
+    flex: 25%;
+    max-width: 35%;
+    flex-direction: column;
+    padding: 0 4px;
+  }
+
+.column2 {
+    flex: 25%;
+    max-width: 35%;
+    flex-direction: column;
+    padding: 0 4px;
+}
+
+.column3 {
+    flex: 25%;
+    max-width: 35%;
+    flex-direction: column;
+    padding: 0 4px;
+  }
+
+  .column4 {
+    flex: 25%;
+    max-width: 30%;
+    padding: 0 4px;
+  }
+  
+  .column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    opacity: 50%;
+    width:100%
+  }
+
+  .column2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    opacity: 50%;
+    width:100%
+  }
+
+  .column3 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    opacity: 50%;
+    width:100%
+  }
+
+  .column4 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    opacity: 50%;
+    width:100%
+  }
+
+
+footer p{
+    background: black;
+    opacity: 75%;
+    color:#ffffff;
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+
+  /* Responsive for mobile */
+  @media (max-width: 600px) {
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+      
+    nav {
+        display: block;
+        background: transparent;
+        text-align: center;
+        background: black;
+        border-color: black;
+        border-radius: 5px;
+        opacity: 75%;
+        align-content: center;
+      }
+
+    nav li {
+        display: block;
+        padding: 25px 25px;
+    }
+
+    nav a {
+        color: #FFFFFF;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+
+    }
+
+    nav a:hover {
+        display: block;
+        background-color: #2305d1;
+        border: 5px solid #2305d1;
+        border-radius: 5px;
+    
+    }
+    
+    .active {
+        background-color: #2305d1;
+        border: 5px solid #2305d1;
+        border-radius: 5px;
+    }
+
+
+
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 25px 0px;
+        grid-template-areas:
+          ". . . ."
+          ". . . ."
+          ". . . ."
+          ". . . ."
+          ". . . .";
+    }
+    
+    .EECS {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        height: 100%;
+    }
+    
+    .SI {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        height: 100%;
+    }
+    
+    .Phil {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        height: 100%;
+    }
+    
+    .Math {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        height: 100%;
+    }
+    
+    .EECS183 {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        height: 100%;
+    }
+    
+    .EECS  h2 {
+        font-family: "Caveat", sans-serif;
+        color: white;
+        padding: 0;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    .EECS h3 {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .EECS p {
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .SI  h2 {
+        font-family: "Caveat", sans-serif;
+        color: white;
+        font-size: 30px;
+        line-height: 1;
+        padding: 10px 0;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    .SI h3 {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+
+    }
+    
+    .SI p {
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+        padding: 0 25px;
+    }
+    
+    .Phil  h2 {
+        font-family: "Caveat", sans-serif;
+        color: white;
+        padding: 0;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    .Phil h3 {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .Phil p {
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .Math  h2 {
+        font-family: "Caveat", sans-serif;
+        color: white;
+        padding: 0;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    .Math h3 {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .Math p {
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .EECS183  h2 {
+        font-family: "Caveat", sans-serif;
+        color: white;
+        padding: 0;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    .EECS183 h3 {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .EECS183 p {
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 25px 0px;
+        grid-template-areas:
+          ". . . ."
+          ". . . ."
+          ". . . .";
+      }
+    
+    .EECS203 {
+        grid-column: 2 / span 2;
+        background-color: #ffffff;
+        opacity: .75;
+        border:7px solid #000000;
+        border-radius: 5px;
+    }
+    
+    .EECS281 {
+        grid-column: 2 / span 2;
+        background-color: #ffffff;
+        opacity: .75;
+        border:7px solid #000000;
+        border-radius: 5px;
+    }
+    
+    .EECS370 {
+        grid-column: 2 / span 2;
+        background-color: #ffffff;
+        opacity: .75;
+        border:7px solid #000000;
+        border-radius: 5px;
+    }
+    
+    .EECS203  h2 {
+        font-family: "Caveat", sans-serif;
+        color: black;
+        padding: 0;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+        -webkit-text-stroke: 0.5px black;
+    }
+    
+    .EECS203 h3 {
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .EECS203 p {
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .EECS281  h2 {
+        font-family: "Caveat", sans-serif;
+        color: black;
+        padding: 0;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+        -webkit-text-stroke: 0.5p black;
+    }
+    
+    .EECS281 h3 {
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .EECS281 p {
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .EECS370  h2 {
+        font-family: "Caveat", sans-serif;
+        color: black;
+        padding: 0;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+        -webkit-text-stroke: 0.5px black;
+    }
+    
+    .EECS370 h3 {
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .EECS370 p {
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+
+
+    #classes, h1 {
+        font-size: 50px;
+        line-height: 1;
+        padding: 10px 0;
+        text-align: center;
+        color:white;
+        font-family: "Caveat", sans-serif;
+        background-color: #0b023d;
+        border-color: #0b023d;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+
+    /*work*/
+    .grid-container-keyskills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 25px 0px;
+        grid-template-areas:
+          ". . . .";
+      }
+    
+    .KeySkills {
+        grid-column: 1 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+        width: 150%;
+    }
+    
+    
+    #grid-container-work {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 25px 0px;
+        grid-template-areas:
+            ". . . ."
+            ". . . ."
+            ". . . .";     
+    }
+    
+    .TCS {
+        grid-column: 1 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+        width: 150%;
+    }
+
+    .TCS h1 {
+        font-size: 60px;
+    }
+    
+    .Pitaya {
+        grid-column: 1 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+        width: 150%;
+    }
+
+    .Pitaya h1 {
+        font-size: 60px;
+    }
+    
+    .XOC {
+        grid-column: 1 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+        width: 150%;
+    }
+
+    .XOC h1 {
+        font-size: 60px;
+    }
+    
+    .grid-container-education {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 25px 0px;
+        grid-template-areas:
+          ". . . ."
+          ". . . .";
+    }
+    
+    .UOFM {
+        grid-column: 1 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+        width: 150%;
+    }
+
+    .UOFM h1 {
+        font-size: 50px;
+    }
+    
+    .TP {
+        grid-column: 1 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+        width: 150%;
+    }
+
+    .TP h1 {
+        font-size: 60px;
+    }
+}
+
+
+  
+
+  @media screen and (min-width: 600px){
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+      
+    
+    
+    nav li {
+        display: inline;
+        float: left;
+        padding: 25px 25px;
+    }
+    
+    nav { 
+        background: transparent;
+        padding:  10px 0;
+        text-align: left;
+        background: black;
+        border-color: black;
+        border-radius: 5px;
+        opacity: 75%;
+    
+    }
+    
+    nav a {
+        color: #FFFFFF;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    nav a:hover {
+        display: block;
+        background-color: #2305d1;
+        border: 5px solid #2305d1;
+        border-radius: 5px;
+    
+    }
+    
+    .active {
+        background-color: #2305d1;
+        border: 5px solid #2305d1;
+        border-radius: 5px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 25px 0px;
+        grid-template-areas:
+          ". . . ."
+          ". . . ."
+          ". . . ."
+          ". . . ."
+          ". . . .";
+    }
+    
+    .EECS {
+        grid-column: 1 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+    }
+    
+    .SI {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+    }
+    
+    .Phil {
+        grid-column: 3 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+    }
+    
+    .Math {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+    }
+    
+    .EECS183 {
+        grid-column: 1 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+    }
+    
+    .EECS  h2 {
+        font-family: "Caveat", sans-serif;
+        color: white;
+        font-size: 40px;
+        line-height: 1;
+        padding: 10px 0;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    .EECS h3 {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+    
+        padding: 0 25px;
+    }
+    
+    .EECS p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+        padding: 0 25px;
+    }
+    
+    .SI  h2 {
+        font-family: "Caveat", sans-serif;
+        color: white;
+        font-size: 40px;
+        line-height: 1;
+        padding: 10px 0;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    .SI h3 {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+    
+        padding: 0 25px;
+    }
+    
+    .SI p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+        padding: 0 25px;
+    }
+    
+    .Phil  h2 {
+        font-family: "Caveat", sans-serif;
+        color: white;
+        font-size: 40px;
+        line-height: 1;
+        padding: 10px 0;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    .Phil h3 {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+    
+        padding: 0 25px;
+    }
+    
+    .Phil p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+        padding: 0 25px;
+    }
+    
+    .Math  h2 {
+        font-family: "Caveat", sans-serif;
+        color: white;
+        font-size: 45px;
+        line-height: 1;
+        padding: 10px 0;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    .Math h3 {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+    
+        padding: 0 25px;
+    }
+    
+    .Math p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+        padding: 0 25px;
+    }
+    
+    .EECS183  h2 {
+        font-family: "Caveat", sans-serif;
+        color: white;
+        font-size: 40px;
+        line-height: 1;
+        padding: 10px 0;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    .EECS183 h3 {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+    
+        padding: 0 25px;
+    }
+    
+    .EECS183 p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+        padding: 0 25px;
+    }
+    
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 25px 0px;
+        grid-template-areas:
+          ". . . ."
+          ". . . ."
+          ". . . .";
+      }
+    
+    .EECS203 {
+        grid-column: 1 / span 2;
+        background-color: #ffffff;
+        opacity: .75;
+        border:7px solid #000000;
+        border-radius: 5px;
+    }
+    
+    .EECS281 {
+        grid-column: 2 / span 2;
+        background-color: #ffffff;
+        opacity: .75;
+        border:7px solid #000000;
+        border-radius: 5px;
+    }
+    
+    .EECS370 {
+        grid-column: 3 / span 2;
+        background-color: #ffffff;
+        opacity: .75;
+        border:7px solid #000000;
+        border-radius: 5px;
+    }
+    
+    .EECS203  h2 {
+        font-family: "Caveat", sans-serif;
+        color: black;
+        font-size: 40px;
+        line-height: 1;
+        padding: 10px 0;
+        text-align: center;
+        -webkit-text-stroke: 0.5px black;
+    }
+    
+    .EECS203 h3 {
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+    
+        padding: 0 25px;
+    }
+    
+    .EECS203 p {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+        padding: 0 25px;
+    }
+    
+    .EECS281  h2 {
+        font-family: "Caveat", sans-serif;
+        color: black;
+        font-size: 40px;
+        line-height: 1;
+        padding: 10px 0;
+        text-align: center;
+        -webkit-text-stroke: 0.5px black;
+    }
+    
+    .EECS281 h3 {
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+    
+        padding: 0 25px;
+    }
+    
+    .EECS281 p {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+        padding: 0 25px;
+    }
+    
+    .EECS370  h2 {
+        font-family: "Caveat", sans-serif;
+        color: black;
+        font-size: 40px;
+        line-height: 1;
+        padding: 10px 0;
+        text-align: center;
+        -webkit-text-stroke: 0.5px black;
+    }
+    
+    .EECS370 h3 {
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+    
+        padding: 0 25px;
+    }
+    
+    .EECS370 p {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        padding-bottom: 40px;
+        font-family: "Lato", sans-serif;
+        padding: 0 25px;
+    }
+
+
+    /*work*/
+
+    .grid-container-keyskills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 25px 0px;
+        grid-template-areas:
+          ". . . .";
+      }
+    
+    .KeySkills {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+    }
+    
+    
+    #grid-container-work {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 25px 0px;
+        grid-template-areas:
+            ". . . ."
+            ". . . ."
+            ". . . .";     
+    }
+    
+    .TCS {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+    }
+    
+    .Pitaya {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+    }
+    
+    .XOC {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+    }
+    
+    .grid-container-education {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 25px 0px;
+        grid-template-areas:
+          ". . . ."
+          ". . . .";
+    }
+    
+    .UOFM {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+    }
+    
+    .TP {
+        grid-column: 2 / span 2;
+        background-color: #000000;
+        opacity: .75;
+        border:7px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+    }
+    
+    
+}
+
+
